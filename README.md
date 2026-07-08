@@ -8,17 +8,6 @@ Live Website: https://money-mind-opal.vercel.app/
 
 ⸻
 
-📸 Preview
-
-Add screenshots here after deployment.
-
-* Dashboard
-* Add Transaction
-* Financial Overview Chart
-* Transaction History
-
-⸻
-
 ✨ Features
 
 * 💰 Dynamic Balance, Income, Expense & Savings Summary
