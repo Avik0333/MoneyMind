@@ -1,16 +1,125 @@
-# React + Vite
+💸 MoneyMind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal finance dashboard built with React and Tailwind CSS to help users track income and expenses, visualize spending patterns, and manage their finances through an intuitive dashboard.
 
-Currently, two official plugins are available:
+🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Live Website: https://money-mind-opal.vercel.app/
 
-## React Compiler
+⸻
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Features
 
-## Expanding the ESLint configuration
+* 💰 Dynamic Balance, Income, Expense & Savings Summary
+* ➕ Add New Transactions
+* 🗑 Delete Transactions
+* 🔍 Search Transactions
+* 🏷 Filter by Income & Expense
+* 📊 Interactive Financial Overview Chart
+* 💾 Persistent Data using Local Storage
+* 📱 Fully Responsive Design
+* 🎨 Modern Finance Dashboard UI
+* ⚡ Real-time Dashboard Updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⸻
+
+🛠 Tech Stack
+
+* React
+* Tailwind CSS
+* React Context API
+* React Hooks
+* Recharts
+* React Icons
+* Local Storage
+* Vite
+
+⸻
+
+📂 Project Structure
+
+src
+│
+├── components
+│   ├── Navbar
+│   ├── SummaryCard
+│   ├── SummaryCards
+│   ├── ExpenseChart
+│   ├── TransactionForm
+│   ├── TransactionList
+│   ├── TransactionCard
+│   └── Footer
+│
+├── context
+│   └── FinanceContext
+│
+├── pages
+│   └── Dashboard
+│
+├── services
+│   └── transactions
+│
+└── App.jsx
+
+⸻
+
+🚀 Installation
+
+Clone the repository
+
+git clone https://github.com/Avik0333/MoneyMind.git
+
+Navigate into the project
+
+cd MoneyMind
+
+Install dependencies
+
+npm install
+
+Run the development server
+
+npm run dev
+
+Build for production
+
+npm run build
+
+⸻
+
+📊 Key Highlights
+
+* Real-time financial calculations
+* Interactive pie chart visualization
+* Responsive dashboard layout
+* Component-based architecture
+* Reusable UI components
+* Clean and scalable folder structure
+* Persistent data with Local Storage
+
+⸻
+
+🎯 Future Improvements
+
+* Firebase / Supabase Authentication
+* Cloud Database Integration
+* Budget Goals
+* Monthly Reports
+* Export to PDF / CSV
+* Dark & Light Theme Toggle
+* Recurring Transactions
+* Expense Analytics by Category
+
+⸻
+
+👨‍💻 Author
+
+Avik Sehgal
+
+GitHub: https://github.com/Avik0333
+
+⸻
+
+📄 License
+
+This project is created for educational and portfolio purposes.
